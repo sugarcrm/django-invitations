@@ -13,9 +13,10 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AlterField(
-            model_name='invitation',
-            name='inviter',
-            field=models.ForeignKey(blank=True, to=settings.AUTH_USER_MODEL, null=True, on_delete=django.db.models.deletion.CASCADE),
-        ),
+        # moved to 0002_auto_20151126_0426
+        # migrations.AlterField(
+        #     model_name='invitation',
+        #     name='inviter',
+        #     field=models.ForeignKey(blank=True, to=settings.AUTH_USER_MODEL, null=True, on_delete=django.db.models.deletion.CASCADE),
+        # ),
     ]
