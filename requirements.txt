@@ -1,8 +1,8 @@
-coverage==4.5.4
-flake8==3.7.9
-freezegun==0.3.12
+coverage==5.5
+flake8==4.0.1
+freezegun==1.1.0
 mock==3.0.5
-pytest==5.2.2
-pytest-django==3.6.0
-pytest-cov==2.8.1
+pytest==6.2.4
+pytest-cov==2.12.1
+pytest-django==4.4.0
 tox==3.14.0
